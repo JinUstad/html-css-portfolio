@@ -1,13 +1,175 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jin Ustad</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>My Portfolio</h1>
-    <p>Welcome to my portfolio!</p>
-    <button>Click Me!</button>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-item">
+        <div class="container">
+            <a class="navbar-brand brand-item" href="#">Gul Mohammad</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-link-item">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- hero section start -->
+    <div class="container hero-section">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-8 col-md-8">
+                <div class="left-side">
+                    <h1 class="hero-heading">Hi, <br> I'm <span class="">Gul Mohammad</span></h1>
+                    <p class="hero-description">A passionate web developer with expertise in creating dynamic and
+                        responsive websites. I specialize in front-end development and have a strong background in
+                        HTML, CSS, JavaScript, and various frameworks. I am dedicated to delivering high-quality
+                        solutions that meet client needs and exceed expectations.</p>
+                    <button class="btn btn-primary">Contact Me</button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="right-side">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+                        alt="Hero Image" class="img-fluid">
+                </div>
+            </div>
+
+        </div>
+        <!-- hero section end-->
+
+
+        <!-- hr line start -->
+        <div class="horizontal-_line">
+            <hr>
+        </div>
+        <!-- hr line end -->
+
+        <!-- about section start -->
+        <div class="about_sec">
+            <div class="container">
+                <div class="title_heading">
+                    <h1>About Me.</h1>
+                </div>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-4  left_item">
+                        <img class="img-fluid"
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+                            alt="">
+                    </div>
+                    <div class="col-lg-8 col-md-12 right_item">
+                        <h2>Who Am I....?</h2>
+                        <p>
+                            Hi, I’m Gul Mohammad — a passionate Front-End Developer, Backend Developer, and UI/UX
+                            Designer with experience in building modern, responsive, and user-friendly web applications.
+                            I specialize in creating clean interfaces, scalable backend systems, and seamless digital
+                            experiences using modern technologies and frameworks.
+                            <br> <br>
+                            I have hands-on experience with React JS, responsive web design, API integration, and
+                            full-stack development. Along with development, I also focus on UI/UX design principles to
+                            ensure every project is visually appealing, functional, and user-centric.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about section end -->
+
+        <!-- hr line start -->
+        <div class="horizontal-_line">
+            <hr>
+        </div>
+        <!-- hr line end -->
+
+        <!-- skills start -->
+        <div class="container">
+            <div class="title_heading">
+                <h1 class="mb-0">Skills</h1>
+                <p>Technologies & tools I use to build modern websites</p>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 mt-3">
+                <div class="col">
+                    <div class="skills_card">
+                        <i class="fa-brands fa-html5"></i>
+                        <h3>HTML</h3>
+                        <p>
+                            Semantic structure with clean and SEO friendly code.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skills_card">
+                        <i class="fa-brands fa-html5"></i>
+                        <h3>HTML</h3>
+                        <p>
+                            Semantic structure with clean and SEO friendly code.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skills_card">
+                        <i class="fa-brands fa-html5"></i>
+                        <h3>HTML</h3>
+                        <p>
+                            Semantic structure with clean and SEO friendly code.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skills_card">
+                        <i class="fa-brands fa-html5"></i>
+                        <h3>HTML</h3>
+                        <p>
+                            Semantic structure with clean and SEO friendly code.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- skills end -->
+
+        <!-- hr line start -->
+        <div class="horizontal-_line">
+            <hr>
+        </div>
+        <!-- hr line end -->
+
+
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
 </html>

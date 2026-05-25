@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+body {
+    background: #1B1F22;
+    color: #fff;
+}
+
+
+.navbar-item {
+    background: #1B1F22 !important;
+}
+
+.brand-item {
+    color: #16f !important;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.nav-link-item li a {
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.hero-section {
+    margin-top: 50px;
+}
+
+.left-side {
+    overflow: hidden !important;
+}
+
+.left-side span {
+    color: #16f !important;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.hero-description {
+    color: #fff !important;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.right-side img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.horizontal-_line hr {
+    width: 100%;
+    color: #16f;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.title_heading h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #16f;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.left_item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.right_item h2 {
+    font-size: 35px;
+    color: #16f;
+    font-weight: 600;
+}
+
+.right_item p {
+    font-size: 18px;
+}
+
+.title_heading p {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.skills_card {
+    text-align: center;
+    padding: 20px;
+    background-color: #1B1F22;
+    border: 2px solid #16f;
+    border-radius: 10px;
+}
+
+.skills_card i {
+    font-size: 50px;
+    color: #a74902;
+}
+
+/* media queries */
+@media (max-width: 768px) {
+
+    .hero-section {
+        margin-top: 25px;
+    }
+
+    .right-side img {
+        height: 300px;
+    }
+
+    .left-side span {
+        font-size: 30px;
+    }
+
+    .hero-description {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .title_heading h1{
+        font-size: 30px;
+    }
+    .left_item img{
+        display: none;
+    }
+}
+
+@media (max-width: 426px) {
+    .right-side {
+        margin-top: 30px !important;
+    }
+}
